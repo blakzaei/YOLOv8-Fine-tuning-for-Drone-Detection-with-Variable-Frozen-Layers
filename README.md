@@ -1,7 +1,7 @@
 # YOLOv8 Fine-tuning for Drone Detection with Variable Frozen Layers
 ---------------------------------------------------
 
-This repository contains code for fine-tuning YOLOv8 on a drone dataset sourced from [roboflow.com](https://universe.roboflow.com/mltrain/drone-detection-iwgzl/dataset/1#).
+This repository contains code for fine-tuning YOLOv8 on a drone dataset sourced from [roboflow.com](https://universe.roboflow.com/mltrain/YOUR_API_KEY/1#).
 The fine-tuning process involves downloading the dataset, training the YOLOv8 model, validating its performance, visualizing training curves, and making predictions on test data.
 
 ## Getting Started
