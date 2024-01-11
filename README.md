@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### Dataset
 
-Download the drone dataset from [roboflow.com]https://universe.roboflow.com/mltrain/drone-detection-iwgzl/dataset/1#) and organize it into the desired directory structure.
+Download the drone dataset from [roboflow.com](https://universe.roboflow.com/mltrain/drone-detection-iwgzl/dataset/1#) and organize it into the desired directory structure.
 ```bash
 !curl -L "https://public.roboflow.com/ds/TJlzxDpUrh?key=TELiuSry0d" > roboflow.zip
 !unzip -o roboflow.zip
