@@ -4,6 +4,8 @@
 This repository contains code for fine-tuning YOLOv8 on a drone dataset sourced from [roboflow.com](https://universe.roboflow.com/mltrain/YOUR_API_KEY/1#).
 The fine-tuning process involves downloading the dataset, training the YOLOv8 model, validating its performance, visualizing training curves, and making predictions on test data.
 
+![Sample_output](curves/gt_vs_pred/sample_1.png)
+
 ## Getting Started
 
 ### Prerequisites
@@ -23,7 +25,7 @@ pip install -r requirements.txt
 
 Download the drone dataset from [roboflow.com](https://universe.roboflow.com/mltrain/drone-detection-iwgzl/dataset/1#) and organize it into the desired directory structure.
 ```bash
-!curl -L "https://public.roboflow.com/ds/TJlzxDpUrh?key=TELiuSry0d" > roboflow.zip
+!curl -L "https://public.roboflow.com/ds/YOUR_API_KEY" > roboflow.zip
 !unzip -o roboflow.zip
 !rm roboflow.zip
 ```
